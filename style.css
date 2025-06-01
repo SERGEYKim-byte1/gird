@@ -1,0 +1,92 @@
+
+body{
+    background: white;
+    display: inline-block;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.gray_box{
+ background: grey;
+ padding: 10px;
+}
+
+.name_card{
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.name_card, .text_card{
+    margin: 5px;
+}
+
+.card{
+    background: yellow;
+    border-radius: 2px;
+    border: 1px solid black;
+    padding: 8px;
+    width: 350px;
+    margin-left: 5px;
+    margin-bottom: 5px;
+}
+
+.first_card{
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  align-items: center;
+  border-bottom: 1px solid grey;
+}
+
+.first_card i{
+    font-size: 30px;
+}
+
+.second_card{
+    display: flex;
+    justify-content: space-around;
+    border-bottom: 1px solid grey;
+}
+
+.num_card span{
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.third_card{
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 15px;
+}
+
+.third_card i{
+    font-size: 25px;
+    margin-left: 22px;
+    color: blue;
+}
+
+.gray_box{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.num2{
+    background: #becc41;
+}
+
+.num3, .num4, .num5, .num6, .num7, .num8, .num9{
+    background: white;
+}
+
+.num3 .name_card{
+  font-style: italic;
+  font-weight: normal;
+}
+
+.text_card{
+    font-size: 12px;
+}
+
+.gray_box{
+    grid-template-columns: repeat(4, 1fr);
+    display: grid;
+}
