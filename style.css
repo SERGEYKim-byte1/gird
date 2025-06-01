@@ -24,8 +24,6 @@ body{
     border: 1px solid black;
     padding: 8px;
     width: 350px;
-    margin-left: 5px;
-    margin-bottom: 5px;
 }
 
 .first_card{
@@ -89,4 +87,5 @@ body{
 .gray_box{
     grid-template-columns: repeat(4, 1fr);
     display: grid;
+    gap: 5px;
 }
